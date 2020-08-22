@@ -1,0 +1,118 @@
+*{
+   margin:0;
+}
+
+a {
+    text-decoration:none;
+    color: white;
+}
+
+
+body { 
+    font-family: 'Courier New', Courier, monospace;
+    color: coral;
+    background-color: cadetblue;
+}
+h1 {
+font-size: 56px;
+font-weight: normal
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: normal
+}
+.black {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+    color: black;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 25px inset coral;
+    background-color: whitesmoke
+}
+
+.black ul {
+    padding-left:20px
+
+
+}
+.coral-border {
+    border: 25px outset coral;
+    background-color: whitesmoke;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 10px 20px 20px 20px;
+    box-sizing: border-box;
+}
+
+p {
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+.navigation {
+    width: 100px;
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    padding-top:15px;
+}
+.navi ul {
+    list-style-type: none;
+    width: 80%;
+    margin:auto;
+    margin-bottom:50px;
+    padding:0px;
+    overflow: hidden;
+    background-color:coral;
+    box-sizing: border-box;
+}
+
+
+.navi li {
+    float:left;
+    color: white;
+    display: block;
+    border-right: 1px solid white;
+}
+
+.navi li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navi li a:hover {
+    display: block;
+    background-color: darkcyan;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:underline;
+}
+
+.navi li a:active {
+    text-decoration:underline;
+}
+
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 72px;
+    }
+    body {
+        background-color: lightblue;
+    }
+}
